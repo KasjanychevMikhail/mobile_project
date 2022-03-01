@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search_messages"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/action_sort_by_time_new"
+        android:orderInCategory="1"
+        android:title="@string/action_sort_by_time_new"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_by_time_old"
+        android:orderInCategory="2"
+        android:title="@string/action_sort_by_time_old"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort_by_name"
+        android:orderInCategory="3"
+        android:title="@string/action_sort_by_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_all"
+        android:orderInCategory="4"
+        android:title="@string/delete_all"
+        app:showAsAction="never" />
+
+</menu>

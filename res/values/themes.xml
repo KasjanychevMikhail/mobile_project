@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="buttonStyle">@style/Base.Widget.AppCompat.Button.Colored</item>
+        <item name="imageButtonStyle">@style/Base.Widget.AppCompat.Button.Colored</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextViewTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/textTitle</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/font_main</item>
+    </style>
+
+    <style name="TextViewMainAccent">
+        <item name="android:textColor">@color/textAccent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/font_main</item>
+    </style>
+
+    <style name="TextViewMain">
+        <item name="android:textColor">@color/textcolor_textview</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/font_main</item>
+    </style>
+
+    <style name="TextViewMainSmall">
+        <item name="android:textColor">@color/textcolor_textview</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/font_main</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

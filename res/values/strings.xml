@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Messages</string>
+    <string name="all_messages">Сообщения</string>
+    <string name="count_of_messages">Количество сообщений:</string>
+    <string name="decode_message">Расшифровать сообщение</string>
+    <string name="action_sort_by_time_old">Сначала старые</string>
+    <string name="action_sort_by_time_new">Сначала новые</string>
+    <string name="action_sort_by_name">По алфавиту</string>
+    <string name="action_search">Поиск</string>
+    <string name="title">Заголовок</string>
+    <string name="text">Текст</string>
+    <string name="encode_message">Зашифровать</string>
+    <string name="enter_code">Введите код:</string>
+    <string name="delete_all">Удалить все</string>
+</resources>
